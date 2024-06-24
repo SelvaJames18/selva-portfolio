@@ -1,0 +1,95 @@
+.effect-wrap .effect {
+  position: absolute;
+}
+
+.effect-1 {
+  width: 30px;
+  height: 30px;
+  border: 4px solid #6d2de5;
+  top: 30%;
+  right: 10%;
+  animation: spin 2s linear infinite;
+}
+
+.effect-2 {
+  width: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  top: 90%;
+  left: 20%;
+  animation: leftBounce 2s ease-in-out infinite;
+}
+
+.effect-2 div {
+  height: 3px;
+  width: 3px;
+  background-color: #ff9c07;
+  margin: 0 3px 8px;
+}
+
+.effect-3 {
+  height: 50px;
+  width: 50px;
+  left: 10%;
+  top: 20%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 50%;
+  overflow: hidden;
+  animation: spin 10s linear infinite;
+}
+
+.effect-3 div {
+  width: 1px;
+  background-color: rgb(3, 247, 255);
+}
+
+.effect-4 {
+  width: 116px;
+  height: 60px;
+  aspect-ratio: 1.8;
+  background-color: skyblue;
+  --g: radial-gradient(50% 50%, #000 98%, #0000) no-repeat;
+  mask: var(--g) 100% 100%/30% 60%, var(--g) 70% 0/50% 100%,
+    var(--g) 0 100%/36% 68%, var(--g) 27% 18%/26% 40%,
+    linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
+  left: 50%;
+  top: 18px;
+  animation: leftBounce 4s ease-in-out infinite;
+}
+
+.effect-5 {
+  width: 0;
+  height: 0;
+  top: 70%;
+  left: 70%;
+  border-top: 25px solid transparent;
+  border-left: 50px solid #00c050;
+  border-bottom: 25px solid transparent;
+  transform: rotate(0deg);
+  transition: 0.4s;
+}
+
+.effect-5:hover {
+  transform: rotate(130deg);
+  transition: 0.4s;
+}
+
+.effect-6 {
+  width: 30px;
+  height: 30px;
+  border: 4px solid #6d2de5;
+  top: 30%;
+  right: 10%;
+  animation: spin 1s linear infinite;
+}
+
+.effect-7 {
+  width: 10px;
+  height: 40px;
+  background-color: #e52db7;
+  top: 50%;
+  left: 30%;
+  animation: spin 0.6s linear infinite;
+}
