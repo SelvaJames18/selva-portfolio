@@ -38,9 +38,6 @@ export const Home = () => {
           <div></div>
           <div></div>
           <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
         </div>
         <div className="effect effect-3">
           <div></div>
@@ -63,7 +60,7 @@ export const Home = () => {
         <div className="effect effect-8"></div>
       </div>
       <img
-        className="mt-[70px] rounded-full w-[200px]"
+        className="mt-[50px] rounded-full w-[200px]"
         src={assets.main_image}
       ></img>
       <h3 className="heading-3 mt-2">Hello, my name is </h3>

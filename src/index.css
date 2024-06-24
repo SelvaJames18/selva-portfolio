@@ -44,15 +44,38 @@ body {
 
 .active {
   background: linear-gradient(45deg, rgba(0, 0, 0, 0.75), rgba(4, 4, 4, 0.849));
+
 }
 
 .cards-display {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   margin: 3rem;
-  gap: 1rem;
   row-gap: 3rem;
 }
+
+.image-container {
+  position: relative; /* Necessary for absolute positioning of the button */
+  display: inline-block; /* Ensures the container wraps around the image */
+}
+
+.image-container img {
+  display: block; /* Removes any bottom space due to line height */
+}
+
+.image-container button {
+  position: absolute; /* Position the button absolutely within the container */
+  top: 50%; /* Center the button vertically */
+  left: 50%; /* Center the button horizontally */
+  transform: translate(-50%, -50%); /* Adjust the position to be centered */
+  opacity: 0; /* Hide the button initially */
+  transition: opacity 0.3s; /* Smooth transition for the opacity change */
+}
+
+.image-container:hover button {
+  opacity: 1; /* Show the button when the container is hovered */
+}
+
 
 .heading-1 {
   font-size: 2.5rem;
@@ -117,16 +140,6 @@ body {
   }
   50% {
     transform: translateX(25px);
-  }
-}
-
-@keyframes rightBounce {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
   }
 }
 

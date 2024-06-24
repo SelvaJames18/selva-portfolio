@@ -8,11 +8,11 @@
   border: 4px solid #6d2de5;
   top: 30%;
   right: 10%;
-  animation: spin 2s linear infinite;
+  animation: spin 6s linear infinite;
 }
 
 .effect-2 {
-  width: 80px;
+  width: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -25,7 +25,7 @@
   height: 3px;
   width: 3px;
   background-color: #ff9c07;
-  margin: 0 3px 8px;
+  margin: 0 5px 6px;
 }
 
 .effect-3 {
@@ -56,7 +56,7 @@
     linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
   left: 50%;
   top: 18px;
-  animation: leftBounce 4s ease-in-out infinite;
+  animation: leftBounce 7s ease-in-out infinite;
 }
 
 .effect-5 {
@@ -65,7 +65,7 @@
   top: 70%;
   left: 70%;
   border-top: 25px solid transparent;
-  border-left: 50px solid #00c050;
+  border-left: 50px solid #16c000;
   border-bottom: 25px solid transparent;
   transform: rotate(0deg);
   transition: 0.4s;
@@ -82,7 +82,7 @@
   border: 4px solid #6d2de5;
   top: 30%;
   right: 10%;
-  animation: spin 1s linear infinite;
+  animation: spin 4s linear infinite;
 }
 
 .effect-7 {
@@ -91,5 +91,5 @@
   background-color: #e52db7;
   top: 50%;
   left: 30%;
-  animation: spin 0.6s linear infinite;
+  animation: spin 0.9s linear infinite;
 }

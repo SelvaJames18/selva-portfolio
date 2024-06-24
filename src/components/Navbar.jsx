@@ -18,7 +18,7 @@ export const Navbar = () => {
   window.addEventListener("scroll", changeBackground);
 
   return (
-    <div className={navbar ? "navbar active" : "navbar"}>
+    <div className={navbar ? "navbar active" : "navbar "}>
       <div>
         <Link to='./' href="#home-page" className="text-2xl font-bold text-red-300 animation-fade-down">
           SJ

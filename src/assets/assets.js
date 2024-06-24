@@ -10,6 +10,8 @@ import tailwind_icon from './tailwind.png'
 import email_icon from './email.png'
 import call_icon from './call.png'
 import location_icon from './location.png'
+import food_del_image from './food-del.png'
+import spotify_clone_image from './spotify-clone.png' 
 
 
 export const assets = {
@@ -19,7 +21,9 @@ export const assets = {
     cross_icon,
     email_icon,
     call_icon,
-    location_icon
+    location_icon,
+    food_del_image,
+    spotify_clone_image
 }
 
 export const cards = [
@@ -62,3 +66,4 @@ export const cards = [
 
     }
 ]
+
