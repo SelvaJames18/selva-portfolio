@@ -8,7 +8,7 @@ export const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 1 }}
-      className=" mt-[50px]"
+      className=" mt-[100px]"
     >
       <h2 className="text-3xl font-bold text-center text-white">
         Get in Touch
@@ -30,7 +30,7 @@ export const Contact = () => {
           <p className="text-zinc-400 mt-1 ">Tirunelveli, Tamil Nadu-627425</p>
         </div>
       </div>
-      <form className="max-w-lg mx-auto mb-10">
+      <form className="max-w-lg mx-4 sm:mx-auto mb-10">
         <div className="mb-4">
           <label htmlFor="name" className="block text-red-300 text-[12px] mb-2">
             Your Name
@@ -39,7 +39,7 @@ export const Contact = () => {
             type="text"
             id="name"
             name="name"
-            className="w-full px-3 py-2 text-white bg-zinc-600 border border-zinc-600 rounded-lg focus:outline-none focus:border-red-500 hover:border-red-500 transition duration-200"
+            className="w-full px-3 py-2 text-white bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:border-zinc-800 hover:border-zinc-800 hover:bg-zinc-900 transition duration-200"
             placeholder="Name"
           />
         </div>
@@ -51,7 +51,7 @@ export const Contact = () => {
             type="email"
             id="email"
             name="email"
-            className="w-full px-3 py-2 text-white bg-zinc-600 border border-zinc-600 rounded-lg focus:outline-none focus:border-red-500 hover:border-red-500 transition duration-200"
+            className="w-full px-3 py-2 text-white bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:border-zinc-800 hover:border-zinc-800 hover:bg-zinc-900 transition duration-200"
             placeholder="example@example.com"
           />
         </div>
@@ -66,13 +66,13 @@ export const Contact = () => {
             id="message"
             name="message"
             rows="4"
-            className="w-full px-3 py-2 text-white bg-zinc-600 border border-zinc-600 rounded-lg focus:outline-none focus:border-red-500 hover:border-red-500 transition duration-200"
+            className="w-full px-3 py-2 text-white bg-zinc-800 border border-zinc-700 rounded-lg focus:outline-none focus:border-zinc-800 hover:border-zinc-800 hover:bg-zinc-900 transition duration-200"
             placeholder="Your message here..."
           ></textarea>
         </div>
         <button
           type="submit"
-          className="bg-red-500 text-white py-2 px-4 rounded-lg hover:bg-red-600 transition duration-200"
+          className="bg-zinc-800 border-2 border-zinc-700 text-sm text-red-300 px-6 py-2 rounded-3xl cursor-pointer hover:bg-zinc-900 hover:border-zinc-800 ease-out duration-300"
         >
           Send Message
         </button>

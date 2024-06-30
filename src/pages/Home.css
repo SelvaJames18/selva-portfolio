@@ -16,7 +16,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  top: 90%;
+  top: 88%;
   left: 20%;
   animation: leftBounce 2s ease-in-out infinite;
 }
@@ -31,7 +31,7 @@
 .effect-3 {
   height: 50px;
   width: 50px;
-  left: 10%;
+  left: 7%;
   top: 20%;
   display: flex;
   justify-content: space-between;
@@ -54,8 +54,8 @@
   mask: var(--g) 100% 100%/30% 60%, var(--g) 70% 0/50% 100%,
     var(--g) 0 100%/36% 68%, var(--g) 27% 18%/26% 40%,
     linear-gradient(#000 0 0) bottom/67% 58% no-repeat;
-  left: 50%;
-  top: 18px;
+  left: 40%;
+  top: 10px;
   animation: leftBounce 7s ease-in-out infinite;
 }
 
@@ -63,7 +63,7 @@
   width: 0;
   height: 0;
   top: 70%;
-  left: 70%;
+  left: 80%;
   border-top: 25px solid transparent;
   border-left: 50px solid #16c000;
   border-bottom: 25px solid transparent;
@@ -89,7 +89,40 @@
   width: 10px;
   height: 40px;
   background-color: #e52db7;
-  top: 50%;
-  left: 30%;
+  top: 60%;
+  left: 50%;
   animation: spin 0.9s linear infinite;
+}
+
+@media (max-width:970px) {
+  .effect-4{
+    left: 35%;
+  }
+  
+}
+
+@media (max-width:890px) {
+  .effect-4{
+    left: 27%;
+  }
+}
+
+@media (max-width:800px) {
+  .effect-4{
+    left: 24%;
+  }
+
+  .effect-7{
+    display: none;
+  }
+}
+
+@media (max-width:500px) {
+  .effect-5{
+    display: none;
+  }
+
+  .effect-1, .effect-6{
+    top: 48%;
+  }
 }

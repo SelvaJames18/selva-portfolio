@@ -13,11 +13,11 @@ export const Skills = () => {
   };
 
   return (
-    <motion.div className="mt-[50px]"
+    <motion.div className="mt-[100px]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 1 }}>
-      <h1 className="heading-2 text-white text-center">Skills</h1>
+      <h1 className="text-3xl font-bold text-center text-white">Skills</h1>
       <div className="cards-display">
         {cards.map((card, index) => {
           const hoverTextColorClass = indexToHoverColorMap[index] || "";

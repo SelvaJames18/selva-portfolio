@@ -12,7 +12,8 @@ import call_icon from './call.png'
 import location_icon from './location.png'
 import food_del_image from './food-del.png'
 import spotify_clone_image from './spotify-clone.png' 
-
+import todo_list_image from './todo-list.png'
+import movie_website_image from './movie-website.png'
 
 export const assets = {
     main_image,
@@ -23,7 +24,9 @@ export const assets = {
     call_icon,
     location_icon,
     food_del_image,
-    spotify_clone_image
+    spotify_clone_image,
+    todo_list_image,
+    movie_website_image
 }
 
 export const cards = [
@@ -32,7 +35,7 @@ export const cards = [
         name: 'HTML',
         image: html_icon,
         level: 'Advanced',
-        desc: 'Studied at Hindusthan college of Arts and Science,Coimbatore. As a fresh graduate, I am dedicated and enthusiastic front-end developer passionate'
+        desc: 'In a recent real-time web design project, I applied my advanced knowledge of HTML and tags to create a sleek and responsive website.'
 
     },
     {
@@ -40,30 +43,29 @@ export const cards = [
         name: 'CSS',
         image: css_icon,
         level: 'Advanced',
-        desc: 'Studied at Hindusthan college of Arts and Science,Coimbatore. As a fresh graduate, I am dedicated and enthusiastic front-end developer passionate'
+        desc: 'In a recent real-time web design I implemented CSS animations and transitions to enhance user interactions and create a responsive design.'
 
     },   {
         id: 3,
         name: 'JavaScript',
         image: js_icon,
         level: 'Intermediate',
-        desc: 'Studied at Hindusthan college of Arts and Science,Coimbatore. As a fresh graduate, I am dedicated and enthusiastic front-end developer passionate'
+        desc: 'I applied my knowledge to enhance website functionality and interactivity and respond to user actions without page reloads.'
 
     },   {
         id: 4,
         name: 'React',
         image: react_icon,
         level: 'Intermediate',
-        desc: 'Studied at Hindusthan college of Arts and Science,Coimbatore. As a fresh graduate, I am dedicated and enthusiastic front-end developer passionate'
+        desc: "I've effectively utilized hooks to manage state and lifecycle within functional components. Successfully built interactive and dynamic user interfaces."
 
     },
     {
         id: 5,
-        name: 'React',
+        name: 'Tailwind CSS',
         image: tailwind_icon,
         level: 'Intermediate',
-        desc: 'Studied at Hindusthan college of Arts and Science,Coimbatore. As a fresh graduate, I am dedicated and enthusiastic front-end developer passionate'
-
+        desc: "In intermediate Tailwind CSS projects,I've customized Tailwind's configuration to fine-tune styles and optimize the design system to suit specific project needs."
     }
 ]
 
