@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const changeBackground = () => {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 70) {
       setNavbar(true);
     } else {
       setNavbar(false);
@@ -45,7 +45,7 @@ export const Navbar = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center space-x-10">
+        <div className="hidden md:flex items-center space-x-10 fade-in">
           <Link
             to="/"
             onClick={() => setActive("Home")}

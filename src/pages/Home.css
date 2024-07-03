@@ -6,8 +6,8 @@
   width: 30px;
   height: 30px;
   border: 4px solid #6d2de5;
-  top: 30%;
-  right: 10%;
+  top: 27%;
+  right: 8%;
   animation: spin 6s linear infinite;
 }
 
@@ -62,7 +62,7 @@
 .effect-5 {
   width: 0;
   height: 0;
-  top: 70%;
+  top: 80%;
   left: 80%;
   border-top: 25px solid transparent;
   border-left: 50px solid #16c000;
@@ -80,8 +80,8 @@
   width: 30px;
   height: 30px;
   border: 4px solid #6d2de5;
-  top: 30%;
-  right: 10%;
+  top: 27%;
+  right: 8%;
   animation: spin 4s linear infinite;
 }
 
@@ -101,25 +101,38 @@
   
 }
 
-@media (max-width:890px) {
+@media (max-width:1026px) {
   .effect-4{
     left: 27%;
   }
 }
 
-@media (max-width:800px) {
+@media (max-width:768px) {
+
+  .effect-2{
+    left: 10%;
+  }
   .effect-4{
     left: 24%;
   }
 
-  .effect-7{
+  .effect-5{
     display: none;
   }
+
+  .effect-7{
+    top: 80%;
+    left: 80%;
+  }
+  
 }
 
 @media (max-width:500px) {
   .effect-5{
     display: none;
+  }
+  .effect-2{
+    left: 10%;
   }
 
   .effect-1, .effect-6{
