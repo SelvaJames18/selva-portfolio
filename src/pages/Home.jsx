@@ -4,7 +4,6 @@ import { assets } from "../assets/assets";
 import "./Home.css";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import resume from "../assets/SELVA JAMES.pdf";
 
 export const Home = () => {
   return (
@@ -67,7 +66,7 @@ export const Home = () => {
               <h1 className="heading-1  max-sm:text-[40px]">Selva <span className="text-red-300">James</span></h1>
               <h2 className="heading-2 text-neutral-200  max-sm:text-xl">Frontend Web Developer</h2>
               <div className="flex gap-4 mt-5 max-md:justify-center">
-                <a href={resume} download={resume}><button className="bg-zinc-800 border-2 border-zinc-700 text-sm text-red-300 px-6 py-2 rounded-3xl cursor-pointer hover:bg-zinc-900 hover:border-zinc-800 ease-out duration-300">Download CV</button></a>
+                <a href={assets.resume} download={assets.resume}><button className="bg-zinc-800 border-2 border-zinc-700 text-sm text-red-300 px-6 py-2 rounded-3xl cursor-pointer hover:bg-zinc-900 hover:border-zinc-800 ease-out duration-300">Download CV</button></a>
                 <Link to='/projects'><button className="bg-zinc-800 border-2 border-zinc-700 text-sm text-red-300 px-6 py-2 rounded-3xl cursor-pointer hover:bg-zinc-900 hover:border-zinc-800 ease-out duration-300">Projects</button></Link>
               </div>
               <div className="flex gap-4 mt-5 max-md:justify-center max-sm:text-sm">

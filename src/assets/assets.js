@@ -14,6 +14,7 @@ import food_del_image from './food-del.png'
 import spotify_clone_image from './spotify-clone.png' 
 import todo_list_image from './todo-list.png'
 import movie_website_image from './movie-website.png'
+import resume from './SELVA JAMES.pdf'
 
 export const assets = {
     main_image,
@@ -26,7 +27,8 @@ export const assets = {
     food_del_image,
     spotify_clone_image,
     todo_list_image,
-    movie_website_image
+    movie_website_image,
+    resume
 }
 
 export const cards = [
