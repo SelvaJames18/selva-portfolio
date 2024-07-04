@@ -121,8 +121,7 @@
   }
 
   .effect-7{
-    top: 80%;
-    left: 80%;
+    display: none;
   }
   
 }

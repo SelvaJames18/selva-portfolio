@@ -7,18 +7,6 @@ import { Link } from "react-router-dom";
 import resume from "../assets/SELVA JAMES.pdf";
 
 export const Home = () => {
-  const [loading, setLoading] = useState(true); // State to manage loading
-
-  useEffect(() => {
-    // Simulate a loading time with a timeout
-    const timer = setTimeout(() => {
-      setLoading(false); // After 2 seconds, loading is set to false
-    }, 2000);
-
-    // Cleanup the timer
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <motion.div
       id="home-page"
