@@ -14,7 +14,7 @@ import food_del_image from './food-del.png'
 import spotify_clone_image from './spotify-clone.png' 
 import todo_list_image from './todo-list.png'
 import movie_website_image from './movie-website.png'
-import resume from './SELVA JAMES.pdf'
+import resume from './Selva James resume.pdf'
 
 export const assets = {
     main_image,

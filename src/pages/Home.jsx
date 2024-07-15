@@ -1,4 +1,3 @@
-// Home.js
 import React, { useState, useEffect } from "react";
 import { assets } from "../assets/assets";
 import "./Home.css";
@@ -71,7 +70,7 @@ export const Home = () => {
               </div>
               <div className="flex gap-4 mt-5 max-md:justify-center max-sm:text-sm">
                 <a href="https://github.com/SelvaJames18"><i className="border bg-zinc-800 border-zinc-600 text-red-300 rounded-full p-2 scale-100 hover:scale-110 hover:bg-zinc-900 hover:border-zinc-800 duration-300 cursor-pointer fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/selva-james-602770309/"><i className="border bg-zinc-800 border-zinc-600 text-red-300 rounded-full p-2 scale-100 hover:scale-110 hover:bg-zinc-900 hover:border-zinc-800 duration-300 cursor-pointer fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/selva-james-342083281/"><i className="border bg-zinc-800 border-zinc-600 text-red-300 rounded-full p-2 scale-100 hover:scale-110 hover:bg-zinc-900 hover:border-zinc-800 duration-300 cursor-pointer fa-brands fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/s.e.l.v.a_18/?next=%2F"><i className="border bg-zinc-800 border-zinc-600 text-red-300 rounded-full p-2 scale-100 hover:scale-110 hover:bg-zinc-900 hover:border-zinc-800 duration-300 cursor-pointer fa-brands fa-instagram"></i></a>
               </div>
             </div>

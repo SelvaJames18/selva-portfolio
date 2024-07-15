@@ -3,10 +3,9 @@ import React from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { HomePage } from "../pages/HomePage";
 import { Skills } from "../pages/Skills";
-
-import { AnimatePresence } from "framer-motion";
 import { Contact } from "../pages/Contact";
 import Projects from "../pages/Projects";
+import { AnimatePresence } from "framer-motion";
 
 export const AnimatedRoutes = () => {
   const location = useLocation();
