@@ -23,6 +23,8 @@ export const Navbar = () => {
       setActive("Skills");
     } else if (location.pathname === "/projects") {
       setActive("Projects");
+    } else if (location.pathname === "/aboutme") {
+      setActive("AboutMe"); 
     } else if (location.pathname === "/contact") {
       setActive("Contact");
     }
@@ -49,28 +51,35 @@ export const Navbar = () => {
           <Link
             to="/"
             onClick={() => setActive("Home")}
-            className={`${active === "Home" ? "text-red-300" : "text-sky-100"} hover:text-red-300 cursor-pointer`}
+            className={`${active === "Home" ? "text-red-300" : "text-white"} hover:text-red-300 cursor-pointer`}
           >
             Home
           </Link>
           <Link
             to="/skills"
             onClick={() => setActive("Skills")}
-            className={`${active === "Skills" ? "text-red-300" : "text-sky-100"} hover:text-red-300 cursor-pointer`}
+            className={`${active === "Skills" ? "text-red-300" : "text-white"} hover:text-red-300 cursor-pointer`}
           >
             Skills
           </Link>
           <Link
             to="/projects"
             onClick={() => setActive("Projects")}
-            className={`${active === "Projects" ? "text-red-300" : "text-sky-100"} hover:text-red-300 cursor-pointer`}
+            className={`${active === "Projects" ? "text-red-300" : "text-white"} hover:text-red-300 cursor-pointer`}
           >
             Projects
           </Link>
           <Link
+            to="/aboutme"
+            onClick={() => setActive("AboutMe")}
+            className={`${active === "AboutMe" ? "text-red-300" : "text-white"} hover:text-red-300 cursor-pointer`}
+          >
+            About Me
+          </Link>
+          <Link
             to="/contact"
             onClick={() => setActive("Contact")}
-            className={`${active === "Contact" ? "text-red-300" : "text-sky-100"} hover:text-red-300 cursor-pointer`}
+            className={`${active === "Contact" ? "text-red-300" : "text-white"} hover:text-red-300 cursor-pointer`}
           >
             Contact
           </Link>
@@ -113,7 +122,7 @@ export const Navbar = () => {
                   setActive("Home");
                   setIsMenuOpen(false);
                 }}
-                className={`${active === "Home" ? "text-red-300" : "text-sky-100"} hover:text-red-300 cursor-pointer`}
+                className={`${active === "Home" ? "text-red-300" : "text-white"} hover:text-red-300 cursor-pointer`}
               >
                 Home
               </Link>
@@ -125,7 +134,7 @@ export const Navbar = () => {
                   setActive("Skills");
                   setIsMenuOpen(false);
                 }}
-                className={`${active === "Skills" ? "text-red-300" : "text-sky-100"} hover:text-red-300 cursor-pointer`}
+                className={`${active === "Skills" ? "text-red-300" : "text-white"} hover:text-red-300 cursor-pointer`}
               >
                 Skills
               </Link>
@@ -137,9 +146,21 @@ export const Navbar = () => {
                   setActive("Projects");
                   setIsMenuOpen(false);
                 }}
-                className={`${active === "Projects" ? "text-red-300" : "text-sky-100"} hover:text-red-300 cursor-pointer`}
+                className={`${active === "Projects" ? "text-red-300" : "text-white"} hover:text-red-300 cursor-pointer`}
               >
                 Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/aboutme"
+                onClick={() => {
+                  setActive("AboutMe");
+                  setIsMenuOpen(false);
+                }}
+                className={`${active === "AboutMe" ? "text-red-300" : "text-white"} hover:text-red-300 cursor-pointer`}
+              >
+                About Me
               </Link>
             </li>
             <li>
@@ -149,7 +170,7 @@ export const Navbar = () => {
                   setActive("Contact");
                   setIsMenuOpen(false);
                 }}
-                className={`${active === "Contact" ? "text-red-300" : "text-sky-100"} hover:text-red-300 cursor-pointer`}
+                className={`${active === "Contact" ? "text-red-300" : "text-white"} hover:text-red-300 cursor-pointer`}
               >
                 Contact
               </Link>

@@ -8,7 +8,7 @@ export const Home = () => {
   return (
     <motion.div
       id="home-page"
-      className="text-sky-100 flex items-center flex-col max-w-lg mx-auto"
+      className="text-white flex items-center flex-col max-w-lg mx-auto"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 1 }}
@@ -59,13 +59,13 @@ export const Home = () => {
             <div className="effect effect-7"></div>
             <div className="effect effect-8"></div>
           </div>
-          <div className="w-screen h-screen flex justify-center items-center max-md:flex-col-reverse max-md:mt-0 max-md:justify-center max-md:text-center">
+          <div className="w-screen h-screen flex justify-center items-center max-md:flex-col-reverse max-md:mt-0 max-md:justify-center max-md:text-center fade-in">
             <div className="max-md:mt-6">
               <p className="font-light text-neutral-300">Hello, My name is</p>
               <h1 className="heading-1  max-sm:text-[40px]">Selva <span className="text-red-300">James</span></h1>
               <h2 className="heading-2 text-neutral-200  max-sm:text-xl">Frontend Web Developer</h2>
               <div className="flex gap-4 mt-5 max-md:justify-center">
-                <a href={assets.resume} download={assets.resume}><button className="bg-zinc-800 border-2 border-zinc-700 text-sm text-red-300 px-6 py-2 rounded-3xl cursor-pointer hover:bg-zinc-900 hover:border-zinc-800 ease-out duration-300">Download CV</button></a>
+              <Link to='/aboutme'><button className="bg-zinc-800 border-2 border-zinc-700 text-sm text-red-300 px-6 py-2 rounded-3xl cursor-pointer hover:bg-zinc-900 hover:border-zinc-800 ease-out duration-300">About Me</button></Link>
                 <Link to='/projects'><button className="bg-zinc-800 border-2 border-zinc-700 text-sm text-red-300 px-6 py-2 rounded-3xl cursor-pointer hover:bg-zinc-900 hover:border-zinc-800 ease-out duration-300">Projects</button></Link>
               </div>
               <div className="flex gap-4 mt-5 max-md:justify-center max-sm:text-sm">
