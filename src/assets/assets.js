@@ -14,6 +14,7 @@ import food_del_image from './food-del.png'
 import spotify_clone_image from './spotify-clone.png' 
 import todo_list_image from './todo-list.png'
 import movie_website_image from './movie-website.png'
+import hotel_booking_image from './hotel-booking.png'
 import resume from './Selva James resume.pdf'
 
 export const assets = {
@@ -28,6 +29,7 @@ export const assets = {
     spotify_clone_image,
     todo_list_image,
     movie_website_image,
+    hotel_booking_image,
     resume
 }
 
