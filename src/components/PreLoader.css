@@ -1,0 +1,40 @@
+.dot-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    background-color: #fca5a5;
+    border-radius: 50%;
+    margin: 0 6px;
+    animation: dot-animation 1.5s ease-in-out infinite; 
+  }
+  
+  .dot:nth-child(2) {
+    animation-delay: 0.1s; 
+  }
+  
+  .dot:nth-child(3) {
+    animation-delay: 0.2s; 
+  }
+
+  .dot:nth-child(4) {
+    animation-delay: 0.3s; 
+  }
+  
+  @keyframes dot-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5); 
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
