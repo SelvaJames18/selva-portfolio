@@ -41,7 +41,7 @@ export const Navbar = () => {
     <div className={`${navbar ? "bg-gray-800 shadow-lg" : "bg-transparent"} fixed w-full top-0 z-50 transition duration-300`}>
       <div className="container mx-auto p-10 flex justify-between items-center h-16 font-semibold">
         <div>
-          <Link to="/" className="text-2xl font-bold text-red-300 animation-fade-down">
+          <Link to="/" className="text-2xl font-bold text-red-300 animation-fade-downz">
             SJ
           </Link>
         </div>
