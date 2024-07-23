@@ -49,7 +49,7 @@ const Projects = () => {
 
   return (
     <motion.div
-      className="mt-20 px-5"
+      className="mt-[100px] px-5"
       id="projects"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
