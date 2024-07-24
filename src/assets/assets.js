@@ -7,6 +7,7 @@ import css_icon from './CSS.png'
 import js_icon from './JS.png'
 import react_icon from './React.png'
 import tailwind_icon from './tailwind.png'
+import bootstrap_icon from './Bootstrap.png'
 import email_icon from './email.png'
 import call_icon from './call.png'
 import location_icon from './location.png'
@@ -70,6 +71,13 @@ export const cards = [
         image: tailwind_icon,
         level: 'Intermediate',
         desc: "In intermediate Tailwind CSS projects,I've customized Tailwind's configuration to fine-tune styles and optimize the design system to suit specific project needs."
+    },
+    {
+        id: 6,
+        name: 'Bootstrap',
+        image: bootstrap_icon,
+        level: 'Basics',
+        desc: "I've already finished a project using Bootstrap 5 and am familiar with the fundamentals of the framework. I now want to improve my Bootstrap abilities even more."
     }
 ]
 
